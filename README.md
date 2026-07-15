@@ -51,7 +51,7 @@ OpenCV loads images in **BGR** order (not RGB). `cv2.cvtColor(img, code)` conver
 
 ## Part 2 — Russian license plate recognition
 
-The same Haar cascade idea, applied to a car photo, in five steps:
+The same Haar cascade idea, applied to a licence photo, in five steps:
 
 1. **Load the image** — `cv2.imread("Russian plate.jpg")`.
 2. **Convert color formats** — two conversions this time:
